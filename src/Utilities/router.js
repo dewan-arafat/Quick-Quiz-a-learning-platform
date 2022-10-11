@@ -5,7 +5,7 @@ import Home from "../Component/Home/Home";
 import QuizDetails from "../Component/QuizDetails/QuizDetails";
 import Root from "../Component/Root/Root";
 import Statistics from "../Component/Statistics/Statistics";
-
+import Blog from "../Component/Blog/Blog";
 const router = createBrowserRouter([
     {
         path: '/',
@@ -19,7 +19,7 @@ const router = createBrowserRouter([
             { path: '/', element: <Home /> },
             { path: '/home', element: <Home /> },
             { path: '/statistics', element: <Statistics /> },
-            { path: '/blog', element: <Statistics /> },
+            { path: '/blog', element: <Blog /> },
             {
                 path: '/quiz/:quizID',
                 loader: async ({ params }) => {
