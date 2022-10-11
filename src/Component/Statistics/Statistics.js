@@ -6,7 +6,7 @@ const Statistics = () => {
     const data = useContext(QuizContext)
     console.log(data);
     return (
-        <div className='mt-10 bg-gray-200'>
+        <div className='mt-10 bg-gray-200 my-4 px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-4'>
             <div>
                 <p className='text-center text-orange-400 text-3xl font-semibold pb-5'>Total number of quiz for each topic</p>
             </div>
