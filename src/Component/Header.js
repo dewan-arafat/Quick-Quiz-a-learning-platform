@@ -26,7 +26,7 @@ const Header = () => {
                             to='/home'
                             aria-label='Home'
                             title='Home'
-                            className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
+                            className='font-medium tracking-wide text-gray-700 text-xl transition-colors duration-200 hover:text-lime-400'
                         >
                             Home
                         </Link>
@@ -36,7 +36,7 @@ const Header = () => {
                             to='/statistics'
                             aria-label='Statistics'
                             title='Statistics'
-                            className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
+                            className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-lime-400'
                         >
                             Statistics
                         </Link>
@@ -46,7 +46,7 @@ const Header = () => {
                             to='/blog'
                             aria-label='Blog'
                             title='Blog'
-                            className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
+                            className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-lime-400'
                         >
                             <p> Blog</p>
                         </Link>

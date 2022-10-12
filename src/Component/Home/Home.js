@@ -13,23 +13,17 @@ const Home = () => {
                 <div className="flex flex-col items-start w-full max-w-xl px-4 mx-auto lg:px-8 lg:max-w-screen-xl">
                     <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
                         <div className="max-w-xl mb-6">
-                            <div>
-                                <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-                                    New Colaboration
-                                </p>
-                            </div>
+
                             <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                                The quick, brown fox
+                                It matters
                                 <br className="hidden md:block" />
-                                jumps over{' '}
-                                <span className="inline-block text-deep-purple-accent-400">
-                                    a lazy dog
+                                how you{' '}
+                                <span className="inline-block text-purple-400">
+                                    learn
                                 </span>
                             </h2>
                             <p className="text-base text-gray-700 md:text-lg">
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                                quae. explicabo.
+                                Assessment, instruction, and practice that motivate every student to mastery.
                             </p>
                         </div>
                         <div className="flex flex-col items-center md:flex-row">
@@ -37,7 +31,7 @@ const Home = () => {
                                 href="/"
                                 className="inline-flex items-center justify-center w-full h-12 px-6 mb-3 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-purple-500 hover:bg-purple-700 focus:shadow-outline focus:outline-none"
                             >
-                                Apply Now
+                                Sign Up
                             </a>
                             <a
                                 href="/"
@@ -58,7 +52,9 @@ const Home = () => {
                 </div>
             </div>
 
-
+            <div>
+                <h1 className='text-4xl font-bold mb-5 text-purple-500'> Quiz Category</h1>
+            </div>
 
             <div className='grid gap-8 row-gap-5 mb-8 lg:grid-cols-3 lg:row-gap-8'>
                 {quizTopic.map(quiz => (
