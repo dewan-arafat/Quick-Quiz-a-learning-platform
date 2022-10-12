@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <div className='px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20'>
 
-            <div className="relative flex flex-col py-16 lg:pt-0 lg:flex-col lg:pb-0">
+            <div className="relative flex flex-col lg:mb-5 py-16 lg:pt-0 lg:flex-col lg:pb-0">
                 <div className="flex flex-col items-start w-full max-w-xl px-4 mx-auto lg:px-8 lg:max-w-screen-xl">
                     <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
                         <div className="max-w-xl mb-6">
@@ -35,7 +35,7 @@ const Home = () => {
                         <div className="flex flex-col items-center md:flex-row">
                             <a
                                 href="/"
-                                className="inline-flex items-center justify-center w-full h-12 px-6 mb-3 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                                className="inline-flex items-center justify-center w-full h-12 px-6 mb-3 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-purple-500 hover:bg-purple-700 focus:shadow-outline focus:outline-none"
                             >
                                 Apply Now
                             </a>

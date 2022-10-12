@@ -14,7 +14,7 @@ const QuizItem = ({ quiz, }) => {
             <p className='text-gray-700 font-bold'>No. of Question: {total}</p>
             <Link to={`/quiz/${id}`}
                 //onClick={() => handleAddToCart(product)}
-                className='px-8 block w-full mt-4 py-3 font-semibold rounded-full bg-cyan-200 text-gray-800 hover:bg-cyan-400'
+                className='px-8 block w-full mt-4 py-3 font-semibold text-center rounded-full bg-cyan-200 text-gray-800 hover:bg-cyan-400'
             >
                 Let's Start
             </Link>
